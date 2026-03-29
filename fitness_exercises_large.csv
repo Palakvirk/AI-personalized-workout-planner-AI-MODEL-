@@ -1,0 +1,69 @@
+Exercise,MuscleGroup,Gym_Machine,Home_Compatible,Difficulty,Avoid_If_Injury
+Push-up,Chest,No,Yes,Beginner,shoulder severe
+Knee Push-up,Chest,No,Yes,Beginner,none
+Decline Push-up,Chest,No,Yes,Intermediate,shoulder
+Bench Press,Chest,Yes,No,Intermediate,shoulder
+Incline Bench Press,Chest,Yes,No,Intermediate,shoulder
+Decline Bench Press,Chest,Yes,No,Advanced,shoulder
+Chest Fly Machine,Chest,Yes,No,Beginner,shoulder
+Cable Chest Fly,Chest,Yes,No,Intermediate,shoulder
+Dumbbell Press,Chest,No,Yes,Intermediate,shoulder
+Pull-up,Back,No,Yes,Advanced,shoulder
+Assisted Pull-up,Back,Yes,No,Beginner,shoulder
+Lat Pulldown,Back,Yes,No,Beginner,none
+Seated Row Machine,Back,Yes,No,Beginner,lower back severe
+Bent Over Row,Back,No,Yes,Intermediate,lower back
+Deadlift,Back,No,Yes,Advanced,lower back
+T-Bar Row,Back,Yes,No,Intermediate,lower back
+Single Arm Dumbbell Row,Back,No,Yes,Beginner,lower back
+Face Pull,Back,Yes,No,Beginner,none
+Bodyweight Squat,Legs,No,Yes,Beginner,knee
+Goblet Squat,Legs,No,Yes,Intermediate,knee
+Barbell Squat,Legs,Yes,No,Advanced,knee
+Leg Press,Legs,Yes,No,Beginner,knee
+Walking Lunges,Legs,No,Yes,Beginner,knee
+Bulgarian Split Squat,Legs,No,Yes,Intermediate,knee
+Leg Extension,Legs,Yes,No,Beginner,knee
+Leg Curl,Legs,Yes,No,Beginner,none
+Romanian Deadlift,Legs,No,Yes,Intermediate,lower back
+Shoulder Press Machine,Shoulders,Yes,No,Beginner,shoulder
+Dumbbell Shoulder Press,Shoulders,No,Yes,Intermediate,shoulder
+Arnold Press,Shoulders,No,Yes,Intermediate,shoulder
+Lateral Raise,Shoulders,No,Yes,Beginner,shoulder
+Cable Lateral Raise,Shoulders,Yes,No,Intermediate,shoulder
+Front Raise,Shoulders,No,Yes,Beginner,shoulder
+Rear Delt Fly Machine,Shoulders,Yes,No,Beginner,shoulder
+Upright Row,Shoulders,No,Yes,Intermediate,shoulder
+Bicep Curl,Biceps,No,Yes,Beginner,none
+Hammer Curl,Biceps,No,Yes,Beginner,none
+Barbell Curl,Biceps,Yes,No,Intermediate,none
+Preacher Curl Machine,Biceps,Yes,No,Beginner,none
+Concentration Curl,Biceps,No,Yes,Intermediate,none
+Tricep Dips,Triceps,No,Yes,Intermediate,shoulder
+Bench Dips,Triceps,No,Yes,Beginner,shoulder
+Tricep Pushdown,Triceps,Yes,No,Beginner,none
+Overhead Tricep Extension,Triceps,No,Yes,Intermediate,shoulder
+Skull Crushers,Triceps,No,Yes,Advanced,elbow
+Plank,Core,No,Yes,Beginner,lower back severe
+Side Plank,Core,No,Yes,Beginner,lower back severe
+Crunches,Core,No,Yes,Beginner,lower back
+Russian Twist,Core,No,Yes,Intermediate,lower back
+Hanging Leg Raise,Core,Yes,No,Advanced,lower back
+Cable Crunch,Core,Yes,No,Intermediate,lower back
+Ab Wheel Rollout,Core,No,Yes,Advanced,lower back
+Glute Bridge,Glutes,No,Yes,Beginner,none
+Hip Thrust,Glutes,No,Yes,Intermediate,lower back
+Hip Thrust Machine,Glutes,Yes,No,Intermediate,lower back
+Cable Kickback,Glutes,Yes,No,Beginner,none
+Step-ups,Glutes,No,Yes,Beginner,knee
+Calf Raises,Calves,No,Yes,Beginner,none
+Seated Calf Raise Machine,Calves,Yes,No,Beginner,none
+Standing Calf Raise Machine,Calves,Yes,No,Beginner,none
+Jump Rope,Cardio,No,Yes,Beginner,knee
+Burpees,Cardio,No,Yes,Advanced,knee
+Mountain Climbers,Cardio,No,Yes,Intermediate,knee
+Cycling Machine,Cardio,Yes,No,Beginner,none
+Treadmill Walk,Cardio,Yes,No,Beginner,none
+Treadmill Run,Cardio,Yes,No,Intermediate,knee
+Elliptical,Cardio,Yes,No,Beginner,none
+Rowing Machine,Cardio,Yes,No,Intermediate,lower back
