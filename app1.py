@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split, cross_val_score
 # ---------------------------
 # PAGE CONFIG
 # ---------------------------
-st.set_page_config(page_title="AI Fitness Planner", layout="wide", page_icon="⚡")
+st.set_page_config(page_title="FitForge AI • Workout Planner", layout="wide", page_icon="💪")
 
 # ---------------------------
 # PROFESSIONAL DARK THEME
@@ -36,11 +36,11 @@ st.markdown("""
 #MainMenu, header, footer { visibility: hidden; }
 
 .stApp {
-    background-color: #F5F3EE;
+    background: linear-gradient(180deg,#0F172A 0%, #111827 100%);
     background-image:
         radial-gradient(ellipse at 10% 0%, rgba(99,102,241,0.07) 0%, transparent 50%),
         radial-gradient(ellipse at 90% 100%, rgba(16,185,129,0.06) 0%, transparent 50%);
-    color: #1C1917;
+    color: #F8FAFC;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
@@ -136,8 +136,8 @@ st.markdown("""
 
 /* ── Metric Cards ── */
 .metric-card {
-    background: #FFFFFF;
-    border: 1px solid rgba(28,25,23,0.08);
+    background: rgba(30,41,59,0.92);
+    border: 1px solid rgba(59,130,246,0.18);
     border-radius: 16px;
     padding: 1.5rem 1.7rem;
     position: relative;
@@ -164,7 +164,7 @@ st.markdown("""
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     font-weight: 800;
-    color: #1C1917;
+    color: #F8FAFC;
     line-height: 1;
     margin-bottom: 0.2rem;
 }
@@ -204,7 +204,7 @@ st.markdown("""
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 0.95rem;
     font-weight: 700;
-    color: #1C1917;
+    color: #F8FAFC;
     padding: 0.6rem 0;
     display: flex;
     align-items: center;
@@ -223,10 +223,10 @@ st.markdown("""
 /* ── Global Widget Styling ── */
 h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif !important;
-    color: #1C1917 !important;
+    color: #F8FAFC !important;
 }
 
-p, span, div, label { color: #1C1917 !important; }
+p, span, div, label { color: #F8FAFC !important; }
 
 /* Inputs */
 .stNumberInput input,
@@ -234,7 +234,7 @@ p, span, div, label { color: #1C1917 !important; }
     background-color: #FFFFFF !important;
     border: 1.5px solid rgba(28,25,23,0.15) !important;
     border-radius: 10px !important;
-    color: #1C1917 !important;
+    color: #F8FAFC !important;
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     box-shadow: 0 1px 4px rgba(28,25,23,0.05) !important;
 }
@@ -251,7 +251,7 @@ p, span, div, label { color: #1C1917 !important; }
     background-color: #FFFFFF !important;
     border: 1.5px solid rgba(28,25,23,0.15) !important;
     border-radius: 10px !important;
-    color: #1C1917 !important;
+    color: #F8FAFC !important;
     box-shadow: 0 1px 4px rgba(28,25,23,0.05) !important;
 }
 
@@ -264,7 +264,7 @@ p, span, div, label { color: #1C1917 !important; }
 
 [data-baseweb="popover"] li {
     background-color: #FFFFFF !important;
-    color: #1C1917 !important;
+    color: #F8FAFC !important;
 }
 
 [data-baseweb="popover"] li:hover {
@@ -279,8 +279,8 @@ p, span, div, label { color: #1C1917 !important; }
 }
 
 /* Radio */
-[data-testid="stRadio"] label { color: #1C1917 !important; }
-[data-testid="stRadio"] p { color: #1C1917 !important; }
+[data-testid="stRadio"] label { color: #F8FAFC !important; }
+[data-testid="stRadio"] p { color: #F8FAFC !important; }
 
 /* Widget labels */
 [data-testid="stWidgetLabel"] p,
@@ -296,7 +296,7 @@ p, span, div, label { color: #1C1917 !important; }
 }
 
 /* Metric overrides */
-[data-testid="stMetricValue"] { color: #1C1917 !important; }
+[data-testid="stMetricValue"] { color: #F8FAFC !important; }
 [data-testid="stMetricLabel"] { color: #78716C !important; }
 
 /* Button */
@@ -338,9 +338,9 @@ hr { border-color: rgba(28,25,23,0.08) !important; margin: 1.5rem 0 !important; 
 # ---------------------------
 st.markdown("""
 <div class="hero-banner">
-    <div class="hero-badge">⚡ AI-Powered</div>
-    <div class="hero-title">Personalized <span>Workout Planner</span></div>
-    <div class="hero-subtitle">Machine learning–driven exercise recommendations tailored to your body, goals, and lifestyle.</div>
+    <div class="hero-badge">🤖 MACHINE LEARNING POWERED</div>
+    <div class="hero-title">FitForge <span>AI</span></div>
+    <div class="hero-subtitle">Train smarter with AI-powered recommendations based on your fitness profile, workout experience, and lifestyle.</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -652,7 +652,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 # ---------------------------
 col_btn, _ = st.columns([1, 3])
 with col_btn:
-    generate = st.button("⚡  Generate My Plan", use_container_width=True)
+    generate = st.button("🚀 Generate My Personalized Workout", use_container_width=True)
 
 # ---------------------------
 # PLAN OUTPUT
@@ -707,3 +707,12 @@ if generate:
         result = recommend_exercises(muscles, location, injuries, level, age)
         st.dataframe(result, use_container_width=True, hide_index=True)
         st.markdown("<br>", unsafe_allow_html=True)
+
+
+st.markdown("""
+<hr style="margin-top:40px;">
+<div style='text-align:center;padding:18px'>
+<h4 style='margin-bottom:6px;'>💪 Built with Python • Streamlit • Scikit-learn</h4>
+<p style='color:#94A3B8;'>Designed & Developed by <b>Palak Virk</b></p>
+</div>
+""", unsafe_allow_html=True)
