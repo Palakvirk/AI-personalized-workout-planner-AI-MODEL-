@@ -36,17 +36,17 @@ st.markdown("""
 #MainMenu, header, footer { visibility: hidden; }
 
 .stApp {
-    background-color: #FAF8F5;
+    background-color: #F5F3EE;
     background-image:
         radial-gradient(ellipse at 10% 0%, rgba(99,102,241,0.07) 0%, transparent 50%),
         radial-gradient(ellipse at 90% 100%, rgba(16,185,129,0.06) 0%, transparent 50%);
-    color: #2B2B2B;
+    color: #1C1917;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* ── Hero Banner ── */
 .hero-banner {
-    background: linear-gradient(135deg, #2B2B2B 0%, #292524 60%, #2B2B2B 100%);
+    background: linear-gradient(135deg, #1C1917 0%, #292524 60%, #1C1917 100%);
     border-radius: 24px;
     padding: 3rem 3.2rem;
     margin-bottom: 2rem;
@@ -77,14 +77,14 @@ st.markdown("""
     font-family: 'Playfair Display', serif;
     font-size: 2.6rem;
     font-weight: 800;
-    color:#2B2B2B !important;
+    color: #FAFAF9 !important;
     letter-spacing: -0.5px;
     margin: 0 0 0.4rem 0;
     line-height: 1.2;
 }
 
 .hero-title span {
-    background: linear-gradient(90deg, #7BAE8B, #C58C65);
+    background: linear-gradient(90deg, #818CF8, #34D399);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -92,7 +92,7 @@ st.markdown("""
 .hero-subtitle {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1rem;
-    color:#6B7280 !important;
+    color: #FFFFFF !important;
     font-weight: 300;
     margin: 0;
     letter-spacing: 0.3px;
@@ -119,7 +119,7 @@ st.markdown("""
     font-weight: 700;
     letter-spacing: 2.5px;
     text-transform: uppercase;
-    color: #5C8D76;
+    color: #6366F1;
     margin-bottom: 1.2rem;
     margin-top: 0.5rem;
     display: flex;
@@ -157,14 +157,14 @@ st.markdown("""
     position: absolute;
     top: 0; left: 0; right: 0;
     height: 3px;
-    background: linear-gradient(90deg, #5C8D76, #7BAE8B);
+    background: linear-gradient(90deg, #6366F1, #10B981);
 }
 
 .metric-value {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     font-weight: 800;
-    color: #2B2B2B;
+    color: #1C1917;
     line-height: 1;
     margin-bottom: 0.2rem;
 }
@@ -204,7 +204,7 @@ st.markdown("""
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 0.95rem;
     font-weight: 700;
-    color: #2B2B2B;
+    color: #1C1917;
     padding: 0.6rem 0;
     display: flex;
     align-items: center;
@@ -214,7 +214,7 @@ st.markdown("""
 .day-dot {
     width: 9px; height: 9px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #5C8D76, #7BAE8B);
+    background: linear-gradient(135deg, #6366F1, #10B981);
     display: inline-block;
     flex-shrink: 0;
     box-shadow: 0 0 0 3px rgba(99,102,241,0.15);
@@ -223,48 +223,48 @@ st.markdown("""
 /* ── Global Widget Styling ── */
 h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif !important;
-    color: #2B2B2B !important;
+    color: #1C1917 !important;
 }
 
-p, span, div, label { color: #2B2B2B !important; }
+p, span, div, label { color: #1C1917 !important; }
 
 /* Inputs */
 .stNumberInput input,
 .stTextInput input {
-    background-color:#6B7280 !important;
+    background-color: #FFFFFF !important;
     border: 1.5px solid rgba(28,25,23,0.15) !important;
     border-radius: 10px !important;
-    color: #2B2B2B !important;
+    color: #1C1917 !important;
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     box-shadow: 0 1px 4px rgba(28,25,23,0.05) !important;
 }
 
 .stNumberInput input:focus,
 .stTextInput input:focus {
-    border-color: #5C8D76 !important;
+    border-color: #6366F1 !important;
     box-shadow: 0 0 0 3px rgba(99,102,241,0.12) !important;
 }
 
 /* Selectbox */
 [data-testid="stSelectbox"] > div > div,
 [data-baseweb="select"] > div {
-    background-color:#6B7280 !important;
+    background-color: #FFFFFF !important;
     border: 1.5px solid rgba(28,25,23,0.15) !important;
     border-radius: 10px !important;
-    color: #2B2B2B !important;
+    color: #1C1917 !important;
     box-shadow: 0 1px 4px rgba(28,25,23,0.05) !important;
 }
 
 [data-baseweb="popover"] ul {
-    background-color:#6B7280 !important;
+    background-color: #FFFFFF !important;
     border: 1px solid rgba(28,25,23,0.1) !important;
     border-radius: 12px !important;
     box-shadow: 0 8px 30px rgba(28,25,23,0.12) !important;
 }
 
 [data-baseweb="popover"] li {
-    background-color:#6B7280 !important;
-    color: #2B2B2B !important;
+    background-color: #FFFFFF !important;
+    color: #1C1917 !important;
 }
 
 [data-baseweb="popover"] li:hover {
@@ -279,8 +279,8 @@ p, span, div, label { color: #2B2B2B !important; }
 }
 
 /* Radio */
-[data-testid="stRadio"] label { color: #2B2B2B !important; }
-[data-testid="stRadio"] p { color: #2B2B2B !important; }
+[data-testid="stRadio"] label { color: #1C1917 !important; }
+[data-testid="stRadio"] p { color: #1C1917 !important; }
 
 /* Widget labels */
 [data-testid="stWidgetLabel"] p,
@@ -296,12 +296,12 @@ p, span, div, label { color: #2B2B2B !important; }
 }
 
 /* Metric overrides */
-[data-testid="stMetricValue"] { color: #2B2B2B !important; }
+[data-testid="stMetricValue"] { color: #1C1917 !important; }
 [data-testid="stMetricLabel"] { color: #78716C !important; }
 
 /* Button */
 .stButton > button {
-    background: linear-gradient(135deg, #4F46E5, #5C8D76) !important;
+    background: linear-gradient(135deg, #4F46E5, #6366F1) !important;
     color: white !important;
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     font-weight: 700 !important;
@@ -338,9 +338,9 @@ hr { border-color: rgba(28,25,23,0.08) !important; margin: 1.5rem 0 !important; 
 # ---------------------------
 st.markdown("""
 <div class="hero-banner">
-    <div class="hero-badge">⚡ Personalized Fitness</div>
+    <div class="hero-badge">⚡ AI-Powered</div>
     <div class="hero-title">Personalized <span>Workout Planner</span></div>
-    <div class="hero-subtitle">Elegant, personalized workout recommendations tailored to your body, fitness level and lifestyle.</div>
+    <div class="hero-subtitle">Machine learning–driven exercise recommendations tailored to your body, goals, and lifestyle.</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -652,7 +652,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 # ---------------------------
 col_btn, _ = st.columns([1, 3])
 with col_btn:
-    generate = st.button("Generate Workout →", use_container_width=True)
+    generate = st.button("⚡  Generate My Plan", use_container_width=True)
 
 # ---------------------------
 # PLAN OUTPUT
@@ -683,7 +683,7 @@ if generate:
             <div class="metric-card" style="text-align:center; padding:1.2rem 1rem;">
                 <div class="metric-label">Week {i+1}</div>
                 <div style="font-family:'Playfair Display',serif; font-size:1rem;
-                            font-weight:700; color:#2B2B2B; line-height:1.4;">
+                            font-weight:700; color:#1C1917; line-height:1.4;">
                     {week_text}
                 </div>
             </div>
@@ -707,10 +707,3 @@ if generate:
         result = recommend_exercises(muscles, location, injuries, level, age)
         st.dataframe(result, use_container_width=True, hide_index=True)
         st.markdown("<br>", unsafe_allow_html=True)
-
-st.markdown("""
-<div style='margin-top:50px;padding:20px;text-align:center;color:#8A817C;font-size:14px'>
-<hr>
-Built with ❤️ using Streamlit & Scikit-learn · <b>Palak Virk</b>
-</div>
-""", unsafe_allow_html=True)
